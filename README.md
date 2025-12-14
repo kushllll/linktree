@@ -46,7 +46,7 @@ SVG / PNG Favicons
 Netlify (deployment & hosting)
 
 No frameworks. No build step. No bloat.
-
+---------------------------------------
 📂 Project Structure
 .
 ├── index.html
@@ -62,20 +62,16 @@ No frameworks. No build step. No bloat.
 ├── Screenshot 2025-12-14 at 5.41.20 AM.png
 └── assets/
     └── avatar.jpg
-
-🚀 Live Demo
-
+----------------------------------------
+🚀 Live Demo: 
 🔗 Live Website:
 👉 https://kushal-links.netlify.app
-
-(Replace with your actual Netlify or custom domain URL)
-
+----------------------------------------
+----------------------------------------
 ➕ Adding New Links
 
 Adding a new link card is simple.
-
 Copy and paste the block below inside the .links container in index.html:
-
 <a
   href="https://your-link.com"
   target="_blank"
@@ -87,50 +83,20 @@ Copy and paste the block below inside the .links container in index.html:
 
 
 No CSS or JavaScript changes required.
-
-📊 Analytics (Optional)
-
-This project can easily integrate lightweight analytics (e.g. Plausible) to track:
-
-Link click counts
-
-Daily visitors
-
-Device types
-
-Analytics can be added without affecting performance or UX.
-
-🌐 Deployment
-Netlify (Recommended)
-
-Drag & drop the project folder into Netlify
-
-Site goes live instantly
-
-Optional: connect a custom domain
-
-HTTPS & SSL handled automatically
+----------------------------------------
 
 🎯 Why This Project?
 
 Full control over branding & UI
-
 No monthly subscription (unlike Linktree)
-
 Faster and lighter than most alternatives
-
 Portfolio-ready personal landing page
-
 Easy to extend in the future
-
+----------------------------------------
 📄 License
 
 This project is open-source and free to use.
-
 You are free to:
-
 Fork
-
 Customize
-
 Deploy for personal or professional use

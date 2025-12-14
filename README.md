@@ -61,18 +61,11 @@ Adding a new link card is simple.
 Copy and paste the block below inside the .links container in index.html:
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
-<a
-
-  href="https://your-link.com"
+<a  href="https://your-link.com"
   target="_blank"
-  class="link-card"
-
->
-
+  class="link-card">
   <span class="title">Your Title</span>
-  
   <span class="subtitle">Optional description</span>
-
 </a>
 
 

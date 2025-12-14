@@ -1,68 +1,54 @@
 🔗 Kushal Links — Personal Link Hub
-
 A clean, modern, and fully self-hosted Linktree alternative built with vanilla web technologies.
 Designed as a personal brand landing page with premium UI, smooth animations, and full deployment control.
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 📸 Preview
+<img width="440" height="569" alt="Screenshot 2025-12-14 at 5 47 27 AM" src="https://github.com/user-attachments/assets/fbf7c583-d4c0-4988-8354-d5a253408274" />
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Kushal Links Screenshot](./Screenshot%202025-12-14%20at%205.41.20 AM.png)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Minimal design · Glassmorphism card · Animated gradient · Mobile-first
-
-✨ Features
-
+✨ Features:
 🎨 Premium animated blue gradient background
-
 🪟 Glassmorphism profile card
-
 🖼 Circular profile avatar with focus ring
-
 💫 Smooth load & click micro-animations
-
 📱 Fully responsive (mobile-first)
-
 🔗 Easy-to-manage link buttons
-
 🌐 Custom favicon + PWA support
-
 ⚡ Fast static site (no framework, no backend)
-
-🧠 Tech Stack
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+🧠 Tech Stack:
 HTML5
-
 CSS3
-
 Custom animations
-
 Glassmorphism UI
-
 Modern gradients
-
 Vanilla JavaScript
-
 SVG / PNG Favicons
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Netlify (deployment & hosting)
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 No frameworks. No build step. No bloat.
----------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 📂 Project Structure
 .
 ├── index.html
+
 ├── style.css
+
 ├── script.js
-├── favicon.svg
-├── favicon-96x96.png
-├── favicon.ico
-├── apple-touch-icon.png
-├── web-app-manifest-192x192.png
-├── web-app-manifest-512x512.png
-├── site.webmanifest
-├── Screenshot 2025-12-14 at 5.41.20 AM.png
 └── assets/
     └── avatar.jpg
-----------------------------------------
+    ├── favicon.svg
+    ├── favicon-96x96.png
+    ├── favicon.ico
+    ├── apple-touch-icon.png
+    ├── web-app-manifest-192x192.png
+    ├── web-app-manifest-512x512.png
+    ├── site.webmanifest
+    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 🚀 Live Demo: 
 🔗 Live Website:
 👉 https://kushal-links.netlify.app

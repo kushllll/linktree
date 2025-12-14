@@ -38,6 +38,7 @@ No frameworks. No build step. No bloat.
 ├── style.css
 
 ├── script.js
+
 └── assets/
     └── avatar.jpg
     ├── favicon.svg
@@ -52,24 +53,31 @@ No frameworks. No build step. No bloat.
 🚀 Live Demo: 
 🔗 Live Website:
 👉 https://kushal-links.netlify.app
-----------------------------------------
-----------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 ➕ Adding New Links
 
 Adding a new link card is simple.
 Copy and paste the block below inside the .links container in index.html:
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 <a
+
   href="https://your-link.com"
   target="_blank"
   class="link-card"
+
 >
+
   <span class="title">Your Title</span>
+  
   <span class="subtitle">Optional description</span>
+
 </a>
 
 
 No CSS or JavaScript changes required.
-----------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🎯 Why This Project?
 
@@ -78,7 +86,7 @@ No monthly subscription (unlike Linktree)
 Faster and lighter than most alternatives
 Portfolio-ready personal landing page
 Easy to extend in the future
-----------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 📄 License
 
 This project is open-source and free to use.

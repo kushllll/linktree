@@ -1,27 +1,33 @@
-🔗 Personal Links Page (Linktree Alternative)
+🔗 Kushal Links — Personal Link Hub
 
-A clean, modern, and lightweight personal links landing page built with HTML, CSS, and JavaScript.
-Designed as a self-hosted alternative to Linktree, with full control over design, branding, and deployment.
+A clean, modern, and fully self-hosted Linktree alternative built with vanilla web technologies.
+Designed as a personal brand landing page with premium UI, smooth animations, and full deployment control.
+
+📸 Preview
+
+![Kushal Links Screenshot](./Screenshot%202025-12-14%20at%205.41.20 AM.png)
+
+Minimal design · Glassmorphism card · Animated gradient · Mobile-first
 
 ✨ Features
 
-🎨 Premium animated gradient background
+🎨 Premium animated blue gradient background
 
 🪟 Glassmorphism profile card
 
-💫 Smooth micro-animations (load & click)
+🖼 Circular profile avatar with focus ring
+
+💫 Smooth load & click micro-animations
 
 📱 Fully responsive (mobile-first)
 
-⚡ Ultra-fast static site
+🔗 Easy-to-manage link buttons
 
-🌐 Custom favicon & PWA support
+🌐 Custom favicon + PWA support
 
-🔗 Easy to add/remove link containers
+⚡ Fast static site (no framework, no backend)
 
-🚀 Deployed on Netlify (free hosting)
-
-🛠 Tech Stack
+🧠 Tech Stack
 
 HTML5
 
@@ -29,15 +35,17 @@ CSS3
 
 Custom animations
 
-Glassmorphism
+Glassmorphism UI
+
+Modern gradients
 
 Vanilla JavaScript
 
-Google Fonts
+SVG / PNG Favicons
 
-Netlify (deployment)
+Netlify (deployment & hosting)
 
-No frameworks. No bloat.
+No frameworks. No build step. No bloat.
 
 📂 Project Structure
 .
@@ -51,19 +59,22 @@ No frameworks. No bloat.
 ├── web-app-manifest-192x192.png
 ├── web-app-manifest-512x512.png
 ├── site.webmanifest
+├── Screenshot 2025-12-14 at 5.41.20 AM.png
 └── assets/
     └── avatar.jpg
 
 🚀 Live Demo
 
-🔗 Live Site:
-👉 https://kushal-links.netlify.app 
+🔗 Live Website:
+👉 https://kushal-links.netlify.app
 
-(Replace with your actual URL)
+(Replace with your actual Netlify or custom domain URL)
 
-🧩 Adding a New Link (Very Easy)
+➕ Adding New Links
 
-To add a new link button, copy this block inside the .links container in index.html:
+Adding a new link card is simple.
+
+Copy and paste the block below inside the .links container in index.html:
 
 <a
   href="https://your-link.com"
@@ -75,49 +86,51 @@ To add a new link button, copy this block inside the .links container in index.h
 </a>
 
 
-No CSS or JS changes required.
+No CSS or JavaScript changes required.
 
 📊 Analytics (Optional)
 
-The project supports lightweight analytics (e.g. Plausible) for:
+This project can easily integrate lightweight analytics (e.g. Plausible) to track:
 
-Link click tracking
+Link click counts
 
-Visitor insights
+Daily visitors
 
-Device stats
+Device types
 
-Analytics can be added without affecting performance.
+Analytics can be added without affecting performance or UX.
 
-🧠 Why This Project?
-
-Full control over branding
-
-No monthly fees (unlike Linktree)
-
-Better performance
-
-Easier customization
-
-Portfolio-ready personal landing page
-
-🧪 Local Development
-
-Just open index.html in your browser.
-
-No build step required.
-
-📦 Deployment
+🌐 Deployment
 Netlify (Recommended)
 
-Drag & drop project folder into Netlify
+Drag & drop the project folder into Netlify
 
 Site goes live instantly
 
-Add custom domain if needed
+Optional: connect a custom domain
+
+HTTPS & SSL handled automatically
+
+🎯 Why This Project?
+
+Full control over branding & UI
+
+No monthly subscription (unlike Linktree)
+
+Faster and lighter than most alternatives
+
+Portfolio-ready personal landing page
+
+Easy to extend in the future
 
 📄 License
 
 This project is open-source and free to use.
 
-Feel free to fork, customize, and deploy.
+You are free to:
+
+Fork
+
+Customize
+
+Deploy for personal or professional use

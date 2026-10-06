@@ -1,89 +1,115 @@
-🔗 Kushal Links — Personal Link Hub
-A clean, modern, and fully self-hosted Linktree alternative built with vanilla web technologies.
-Designed as a personal brand landing page with premium UI, smooth animations, and full deployment control.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-📸 Preview
-<img width="440" height="569" alt="Screenshot 2025-12-14 at 5 47 27 AM" src="https://github.com/user-attachments/assets/fbf7c583-d4c0-4988-8354-d5a253408274" />
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Kushal Links
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Minimal design · Glassmorphism card · Animated gradient · Mobile-first
-✨ Features:
-🎨 Premium animated blue gradient background
-🪟 Glassmorphism profile card
-🖼 Circular profile avatar with focus ring
-💫 Smooth load & click micro-animations
-📱 Fully responsive (mobile-first)
-🔗 Easy-to-manage link buttons
-🌐 Custom favicon + PWA support
-⚡ Fast static site (no framework, no backend)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-🧠 Tech Stack:
-HTML5
-CSS3
-Custom animations
-Glassmorphism UI
-Modern gradients
-Vanilla JavaScript
-SVG / PNG Favicons
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-Netlify (deployment & hosting)
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-No frameworks. No build step. No bloat.
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-📂 Project Structure
+A minimal personal link hub built with vanilla HTML, CSS, and JavaScript.
+
+**[Live Demo](https://kushal-links.netlify.app/)**
+
+<!-- Preview screenshot placeholder: Add a repository preview image here if desired -->
+
+---
+
+## About
+
+Kushal Links is a personal landing page used to organize and showcase projects, profiles, and important links in one centralized place. It intentionally uses vanilla web technologies rather than a frontend framework to keep the page lightweight and simple to maintain.
+
+---
+
+## Features
+
+- **Mobile-First Layout**: Fully responsive interface tailored for mobile and in-app browser viewports.
+- **Glassmorphism Profile Card**: Frosted-glass container with clean typography and spacing.
+- **Optimized Avatar**: High-DPI WebP profile image with explicit dimensions to avoid layout shift.
+- **Interactive Link Cards**: Visual feedback with CSS transitions and a lightweight click-scale micro-interaction.
+- **Social Links**: Scalable SVG vector icons linking to external profiles.
+- **Non-Blocking Typography**: Google Fonts loaded asynchronously with immediate system font fallbacks.
+- **Web App Manifest**: Integrated favicon suite and web manifest support for home screen shortcuts.
+- **Zero Build Step**: Static architecture ready to run on any web server or static hosting provider.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Markup** | HTML5 |
+| **Styling** | CSS3 |
+| **Interactions** | Vanilla JavaScript |
+| **Assets** | WebP (profile image), SVG (social icons), PNG / ICO (favicons) |
+| **Deployment** | Netlify |
+
+---
+
+## Project Structure
+
+```text
 .
+├── assets/
+│   ├── apple-touch-icon.png
+│   ├── favicon-96x96.png
+│   ├── favicon.ico
+│   ├── favicon.svg
+│   ├── site.webmanifest
+│   ├── Sunset Profile Overlook.webp
+│   ├── web-app-manifest-192x192.png
+│   └── web-app-manifest-512x512.png
 ├── index.html
-
-├── style.css
-
+├── README.md
 ├── script.js
+└── style.css
+```
 
-└── assets/
-    └── avatar.jpg
-    ├── favicon.svg
-    ├── favicon-96x96.png
-    ├── favicon.ico
-    ├── apple-touch-icon.png
-    ├── web-app-manifest-192x192.png
-    ├── web-app-manifest-512x512.png
-    ├── site.webmanifest
-    
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-🚀 Live Demo: 
-🔗 Live Website:
-👉 https://kushal-links.netlify.app
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-➕ Adding New Links
+---
 
-Adding a new link card is simple.
-Copy and paste the block below inside the .links container in index.html:
+## Customization
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-<a  href="https://your-link.com"
-  target="_blank"
-  class="link-card">
-  <span class="title">Your Title</span>
-  <span class="subtitle">Optional description</span>
+### Adding or Modifying Links
+
+Links are structured inside the `.links` container in `index.html`:
+
+```html
+<a href="https://example.com" target="_blank" class="link-card">
+  <span class="title">Project Title</span>
+  <span class="subtitle">Short description</span>
 </a>
+```
 
+### Editing Profile Details
 
-No CSS or JavaScript changes required.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+- **Profile Picture**: Replace the image file in `assets/` and update the `src` attribute on the profile `<img>` tag in `index.html`.
+- **Name and Bio**: Edit the text directly inside `<h1 class="name">` and `<p class="bio">` in `index.html`.
+- **Social Icons**: Update the `href` attributes and SVG paths within `<div class="socials">` in `index.html`.
 
-🎯 Why This Project?
+---
 
-Full control over branding & UI
-No monthly subscription (unlike Linktree)
-Faster and lighter than most alternatives
-Portfolio-ready personal landing page
-Easy to extend in the future
-----------------------------------------------------------------------------------------------------------------------------------------------------------------
-📄 License
+## Running Locally
 
-This project is open-source and free to use.
-You are free to:
-Fork
-Customize
-Deploy for personal or professional use
+Because the project requires no compilation or package installation, you can serve it locally using any static web server:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kushllll/linktree.git
+   cd linktree
+   ```
+
+2. Start a local server:
+   ```bash
+   # Using Python 3
+   python3 -m http.server 8000
+
+   # Or using Node.js (optional)
+   npx serve .
+   ```
+
+3. Open `http://localhost:8000` in your browser.
+
+---
+
+## Deployment
+
+The project is deployed as a static site on Netlify.
+
+---
+
+## License
+
+No license has been specified for this repository.

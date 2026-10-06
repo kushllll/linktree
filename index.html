@@ -7,18 +7,22 @@
 
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700&display=swap" rel="stylesheet">
-<!-- Favicons -->
-<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
-<link rel="shortcut icon" href="assets/favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sora:wght@700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sora:wght@700&display=swap" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sora:wght@700&display=swap">
+  </noscript>
+  <!-- Favicons -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon-96x96.png">
+  <link rel="shortcut icon" href="assets/favicon.ico">
 
-<!-- Apple Touch Icon -->
-<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <!-- Apple Touch Icon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
-<!-- Web App Manifest -->
-<link rel="manifest" href="/site.webmanifest">
+  <!-- Web App Manifest -->
+  <link rel="manifest" href="assets/site.webmanifest">
 
 <!-- Theme color -->
 <meta name="theme-color" content="#3a1625">
@@ -26,23 +30,18 @@
 </head>
 
 <body>
-  <!-- Loader -->
-  <div id="loader">
-    <div class="spinner"></div>
-  </div>
-
-  <main class="container hidden">
+  <main class="container">
 
     <!-- Profile -->
     <!-- Profile Card -->
 <div class="profile-card">
 
   <div class="avatar-glow">
-    <img src="assets/avatar4.png" class="avatar" alt="Profile" />
+    <img src="assets/Sunset Profile Overlook.webp" class="avatar" alt="Profile" width="120" height="120" fetchpriority="high" />
   </div>
 
   <h1 class="name">Kushal Bhalwal</h1>
-  <p class="bio"> Fitness Programmer</p>
+  <p class="bio">Building with Cloud, AI & Agentic Systems</p>
 
 </div>
 
@@ -119,6 +118,6 @@
 
   </main>
 
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
